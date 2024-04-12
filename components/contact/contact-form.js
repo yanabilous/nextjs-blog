@@ -74,7 +74,7 @@ function ContactForm() {
     notification = {
       status: "success",
       title: "success!",
-      message: "Your message sent successfully"
+      message: "Your message sent successfully!!!"
     };
   }
   if (requestStatus === "error") {
