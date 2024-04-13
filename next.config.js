@@ -23,3 +23,18 @@ module.exports = (phase) => {
     }
   };
 };
+
+// module.exports = (phase, { defaultConfig }) => {
+//   const isDev = phase === 'development';
+//
+//   const env = {
+//     mongodb_username: 'yanabilous05',
+//     mongodb_password: 'wLc5gObcYQ8oKquO',
+//     mongodb_clustername: 'cluster0',
+//     mongodb_database: isDev ? 'my-site-dev' : 'my-site',
+//   };
+//
+//   return {
+//     env,
+//   };
+// };
